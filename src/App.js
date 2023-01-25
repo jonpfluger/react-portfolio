@@ -1,18 +1,24 @@
 import './App.css';
-import { useEffect, useState } from 'react';
 import Header from './components/Header'
-import Navigation from './components/Navigation'
-import Project from './components/Project'
 import Footer from './components/Footer'
+import Portfolio from './components/Portfolio';
+import About from './components/About'
+import Contact from './components/Contact'
+import Resume from './components/Resume'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <Header />
-      <Navigation />
-      <Project />
+        <Routes>
+          <Route path="/" element={<About />} />
+          <Route path="/Portfolio" element={<Portfolio />} />
+          <Route path="/Contact" element={<Contact />} />
+          <Route path="/Resume" element={<Resume />} />
+        </Routes>
       <Footer />
-    </>
+    </BrowserRouter>
   );
 }
 

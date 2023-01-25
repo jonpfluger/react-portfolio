@@ -1,9 +1,13 @@
 import React, { useState } from 'react';
+import logo3 from '../images/logo3.png'
+import Navigation from './Navigation'
 
 function Header() {
     return (
-        <h1 className="m-2">Jon Pfluger</h1>
-        //<img src="./images/logo3.png" />
+        <>
+            <img src={logo3} />
+            <Navigation />
+        </>
     )
 }
 

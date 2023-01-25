@@ -1,0 +1,11 @@
+[
+    {
+      "id": 1,
+      "title": "House Rules",
+      "description": "Full Stack Application,Group Project (5), built models, then worked heavily on views, error handling",
+      "tech": "Handlebars.js, SQL, Express.js, Sequelize.js, JavaScript, Bootstrap",
+      "image": "../images/house-rules-screenshot.png",
+      "deployedLink": "Link",
+      "githubRepo": "Repo"
+    }
+]
