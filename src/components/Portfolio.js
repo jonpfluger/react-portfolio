@@ -13,9 +13,10 @@ function Portfolio(props) {
                     title={project.title}
                     desc={project.description}
                     tech={project.tech}
-                    image={project.image}
-                    deployedLink={project.link}
-                    githubRepo={project.repo}
+                    imageName={project.imageName}
+                    alt={project.alt}
+                    link={project.deployedLink}
+                    repo={project.githubRepo}
                 />
             ))}
         </>

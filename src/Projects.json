@@ -2,10 +2,11 @@
     {
       "id": 1,
       "title": "House Rules",
-      "description": "Full Stack Application,Group Project (5), built models, then worked heavily on views, error handling",
+      "description": "Group project, full stack application. A user can signup/login and create posts, view others' posts",
       "tech": "Handlebars.js, SQL, Express.js, Sequelize.js, JavaScript, Bootstrap",
-      "image": "../images/house-rules-screenshot.png",
-      "deployedLink": "Link",
-      "githubRepo": "Repo"
+      "imageName": "house-rules-screenshot.png",
+      "alt": "Image of the House Rules homepage",
+      "deployedLink": "https://house-rules.herokuapp.com/",
+      "githubRepo": "https://github.com/jonpfluger/house-rules"
     }
 ]

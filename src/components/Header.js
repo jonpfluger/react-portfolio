@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import logo3 from '../images/logo3.png'
 import Navigation from './Navigation'
+import logo from '../images/logo3.png'
 
 function Header() {
     return (
-        <>
-            <img src={logo3} />
+        <header id="header">
+            <img id="logo" src={logo} alt="Jon Pfluger's logo" />
             <Navigation />
-        </>
+        </header>
     )
 }
 
