@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Project from './Project'
 
-import projectsJSON from '../Projects.json'
+import projectsJSON from '../projectData'
 
 function Portfolio(props) {
     const [projectList, setProjectList] = useState(projectsJSON);
@@ -13,7 +13,7 @@ function Portfolio(props) {
                     title={project.title}
                     desc={project.description}
                     tech={project.tech}
-                    imageName={project.imageName}
+                    imagePath={project.imagePath}
                     alt={project.alt}
                     link={project.deployedLink}
                     repo={project.githubRepo}
