@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.8d9aa3f8.css",
-    "main.js": "/react-portfolio/static/js/main.d385d8ce.js",
+    "main.css": "/react-portfolio/static/css/main.0fc72be2.css",
+    "main.js": "/react-portfolio/static/js/main.6eb9106f.js",
     "static/media/celebrity-astrology.png": "/react-portfolio/static/media/celebrity-astrology.cf3ae94727bc10d99125.png",
     "static/media/me-2.png": "/react-portfolio/static/media/me-2.baf8e84e3ce19b4af4d2.png",
     "static/media/logo3.png": "/react-portfolio/static/media/logo3.a266846ef3ea24e52f22.png",
+    "static/media/e-commerce-backend.PNG": "/react-portfolio/static/media/e-commerce-backend.d85210734df084ec3242.PNG",
     "static/media/house-rules-screenshot.png": "/react-portfolio/static/media/house-rules-screenshot.cc4060f4750b39d3036d.png",
+    "static/media/social-network-api-screenshot.PNG": "/react-portfolio/static/media/social-network-api-screenshot.49fcd42355b8d0864926.PNG",
     "static/media/resume-screenshot.PNG": "/react-portfolio/static/media/resume-screenshot.7219e0859492b4be8d4a.PNG",
     "static/media/note-taker.png": "/react-portfolio/static/media/note-taker.05fb651539923f9320c2.png",
+    "static/media/team-profile-generator.png": "/react-portfolio/static/media/team-profile-generator.fb40e1969ef1d49dbf44.png",
+    "static/media/jate-screenshot.PNG": "/react-portfolio/static/media/jate-screenshot.d45f02c2326e2a75a471.PNG",
     "index.html": "/react-portfolio/index.html",
-    "main.8d9aa3f8.css.map": "/react-portfolio/static/css/main.8d9aa3f8.css.map",
-    "main.d385d8ce.js.map": "/react-portfolio/static/js/main.d385d8ce.js.map"
+    "main.0fc72be2.css.map": "/react-portfolio/static/css/main.0fc72be2.css.map",
+    "main.6eb9106f.js.map": "/react-portfolio/static/js/main.6eb9106f.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d9aa3f8.css",
-    "static/js/main.d385d8ce.js"
+    "static/css/main.0fc72be2.css",
+    "static/js/main.6eb9106f.js"
   ]
 }
