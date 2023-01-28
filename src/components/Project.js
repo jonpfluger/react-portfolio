@@ -8,7 +8,9 @@ function Project(props) {
                 <img className="project-images card-img-top" src={imagePath} alt={alt} />
                 <h4 className="card-title mt-2 mx-3">{title}</h4>
                 <div className="card-body">
+                    <h6 className="card-subtitle">Description</h6>
                     <p>{desc}</p>
+                    <h6 className="card-subtitle">Technology Used</h6>
                     <p>{tech}</p>
                     {link ? <a className="card-link project-links" href={link}><i className="mx-2 bi bi-link-45deg"></i>Link</a> : null}
                     <a className="card-link project-links" href={repo}><i className="mx-2 bi bi-github"></i>Repo</a>

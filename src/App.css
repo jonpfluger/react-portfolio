@@ -66,6 +66,7 @@ a:focus {
 .projects {
   background: linear-gradient(var(--ContainerColor), var(--HeaderColor));
   border: 1px solid var(--PrimaryColor);
+  min-height: 700px;
 }
 
 .project-links {
