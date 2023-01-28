@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.8d9aa3f8.css",
-    "main.js": "/react-portfolio/static/js/main.0b30e35e.js",
+    "main.js": "/react-portfolio/static/js/main.d385d8ce.js",
     "static/media/celebrity-astrology.png": "/react-portfolio/static/media/celebrity-astrology.cf3ae94727bc10d99125.png",
     "static/media/me-2.png": "/react-portfolio/static/media/me-2.baf8e84e3ce19b4af4d2.png",
     "static/media/logo3.png": "/react-portfolio/static/media/logo3.a266846ef3ea24e52f22.png",
@@ -10,10 +10,10 @@
     "static/media/note-taker.png": "/react-portfolio/static/media/note-taker.05fb651539923f9320c2.png",
     "index.html": "/react-portfolio/index.html",
     "main.8d9aa3f8.css.map": "/react-portfolio/static/css/main.8d9aa3f8.css.map",
-    "main.0b30e35e.js.map": "/react-portfolio/static/js/main.0b30e35e.js.map"
+    "main.d385d8ce.js.map": "/react-portfolio/static/js/main.d385d8ce.js.map"
   },
   "entrypoints": [
     "static/css/main.8d9aa3f8.css",
-    "static/js/main.0b30e35e.js"
+    "static/js/main.d385d8ce.js"
   ]
 }
