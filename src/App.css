@@ -25,6 +25,7 @@ header {
 }
 
 #logo {
+  width: 500px;
   max-width: 100%;
   height: auto;
   margin: auto;
@@ -84,11 +85,26 @@ a:focus {
 #form-container {
   background-color: var(--ContainerColor);
   border: 1px solid var(--PrimaryColor);
+  border-radius: 7px;
   padding-bottom: 30px;
 }
 
 #submitBtn {
-  background-color: var(--PrimaryColor);
+  color: var(--PrimaryColor);
+  background: linear-gradient(var(--ContainerColor), var(--HeaderColor));
+  border: 1px solid var(--PrimaryColor);
+}
+
+#submitBtn:hover {
+  color: var(--HeaderColor);
+  background: var(--PrimaryColor);
+  border: 1px solid var(--HeaderColor);
+}
+
+#submitBtn:active {
+  color: var(--PrimaryColor);
+  background: var(--HeaderColor);
+  border: 1px solid var(--PrimaryColor);
 }
 
 #email-phone-container {
@@ -138,5 +154,12 @@ footer a:hover {
   .email-phone {
     display: flex;
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .navbar-link {
+    display: block;
+    text-align: center;
   }
 }
