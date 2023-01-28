@@ -13,4 +13,4 @@ New portfolio built with React!
 
 ## Link
 
-<!-- https://jonpfluger.github.io/react-portfolio -->
+https://jonpfluger.github.io/react-portfolio/
