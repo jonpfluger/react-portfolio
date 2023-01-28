@@ -121,7 +121,7 @@ a:focus {
   background: linear-gradient(var(--ContainerColor), var(--HeaderColor));
   border: 1px solid var(--PrimaryColor);
   border-radius: 7px;
-  height: 600px;
+  min-height: 700px;
   width: 500px;
   max-width: 100%;
   text-align: center;
@@ -134,10 +134,6 @@ a:focus {
 
 #resume-image:hover {
   transform: scale(1.1);
-}
-
-#resume-link {
-  font-size: 100px;
 }
 
 #resume-download {

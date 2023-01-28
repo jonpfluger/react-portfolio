@@ -18,6 +18,14 @@ function Resume() {
                 <a href="./pdf/jon-pfluger-resume.pdf" download="jon-pfluger-resume"><i id="resume-download" class="bi bi-cloud-arrow-down"></i>Download</a>
             </div>
 
+            <h6>Technical Skills</h6>
+            <p>
+                Languages: JavaScript ES6+, CSS3, HTML5, SQL, NoSQL, GraphQL
+            </p>
+            <p>Applications: GitHub, MongoDB, MySQL</p>
+            <p>
+                Tools: Express, React, Node, Handlebars, jQuery, Bootstrap, Sequelize, Mongoose
+            </p>
         </div>
         
     )
