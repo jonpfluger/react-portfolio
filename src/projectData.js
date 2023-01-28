@@ -62,7 +62,7 @@ export default [
       tech: "Express, Node.js, JavaScript",
       imagePath: noteTakerImg,
       alt: "Image of the Note Taker application",
-      deployedLink: "https://jon-note-taker-app.herokuapp.com",
+      deployedLink: "https://sheltered-peak-54914.herokuapp.com/",
       githubRepo: "https://github.com/jonpfluger/note-taker"
     },
     {
