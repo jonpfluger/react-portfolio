@@ -89,6 +89,10 @@ a:focus {
   padding-bottom: 30px;
 }
 
+#submit-button-container {
+  text-align: center;
+}
+
 #submitBtn {
   color: var(--PrimaryColor);
   background: linear-gradient(var(--ContainerColor), var(--HeaderColor));
@@ -112,11 +116,31 @@ a:focus {
   justify-content: center;
 }
 
-.email-phone {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 40%;
+#resume-container {
+  background: linear-gradient(var(--ContainerColor), var(--HeaderColor));
+  border: 1px solid var(--PrimaryColor);
+  border-radius: 7px;
+  height: 600px;
+  width: 500px;
+  max-width: 100%;
+  text-align: center;
+}
+
+#resume-image {
+  height: 300px;
+  max-height: 100%;
+}
+
+#resume-image:hover {
+  transform: scale(1.1);
+}
+
+#resume-link {
+  font-size: 100px;
+}
+
+#resume-download {
+  transform: scale(3);
 }
 
 footer {
@@ -148,13 +172,10 @@ footer a:hover {
 
 @media only screen and (max-width: 540px) {
   #email-phone-container {
+    display: block;
     text-align: center;
   }
 
-  .email-phone {
-    display: flex;
-    width: 100%;
-  }
 }
 
 @media only screen and (max-width: 410px) {

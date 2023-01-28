@@ -39,15 +39,11 @@ function Contact() {
 
     return (
         <>
-            <div id="email-phone-container" className="container mx-auto">
-                <div className="email-phone mx-2">
-                    <i className="bi bi-envelope-at-fill"></i>
-                    <p className="m-2">jonpfluger718@gmail.com</p>
-                </div>
-                <div className="email-phone mx-2">
-                    <i class="bi bi-phone"></i>
-                    <p className="m-2">262-309-4464</p>
-                </div>
+            <div id="email-phone-container" className="container my-2">
+                <i className="bi bi-envelope-at-fill"></i>
+                <p className="m-2">jonpfluger718@gmail.com</p>
+                <i class="bi bi-phone"></i>
+                <p className="m-2">262-309-4464</p>
             </div>
             <form id="form-container" className="container my-3" onSubmit={handleSubmit}>
                 <div className="form-group my-3">
@@ -65,7 +61,9 @@ function Contact() {
                     <textarea rows="5" name="message" onChange={handleChange} value={formState.message} className="form-control" id="messageInput" placeholder="Send a message" required />
                 </div>
 
-                <button id="submitBtn" className="btn btn-lg">Submit</button>
+                <div id="submit-button-container">
+                    <button id="submitBtn" className="btn btn-lg">Submit</button>
+                </div>
             </form>
         </>
     )
