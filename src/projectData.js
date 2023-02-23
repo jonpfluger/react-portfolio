@@ -95,5 +95,5 @@ export default [
       imagePath: teamProfileG,
       alt: "Image of the Team Profile Generator application",
       githubRepo: "https://github.com/jonpfluger/team-profile-generator",
-    },
+    }
 ]
