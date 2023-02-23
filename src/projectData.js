@@ -94,6 +94,6 @@ export default [
       tech: "Inquirer, Jest, Node.js, JavaScript",
       imagePath: teamProfileG,
       alt: "Image of the Team Profile Generator application",
-      githubRepo: "https://github.com/jonpfluger/team-profile-generator",
+      githubRepo: "https://github.com/jonpfluger/team-profile-generator"
     }
 ]
