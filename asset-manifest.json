@@ -1,8 +1,10 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.f62923cc.css",
-    "main.js": "/react-portfolio/static/js/main.711d617f.js",
+    "main.js": "/react-portfolio/static/js/main.b2f88ddd.js",
+    "static/media/book-search-screenshot.gif": "/react-portfolio/static/media/book-search-screenshot.27c293c4c902e7d9ee9e.gif",
     "static/media/celebrity-astrology.png": "/react-portfolio/static/media/celebrity-astrology.cf3ae94727bc10d99125.png",
+    "static/media/remembrall-homepage-screenshot.png": "/react-portfolio/static/media/remembrall-homepage-screenshot.93a8690a6372a01f28e9.png",
     "static/media/me-2.png": "/react-portfolio/static/media/me-2.baf8e84e3ce19b4af4d2.png",
     "static/media/logo3.png": "/react-portfolio/static/media/logo3.a266846ef3ea24e52f22.png",
     "static/media/e-commerce-backend.PNG": "/react-portfolio/static/media/e-commerce-backend.d85210734df084ec3242.PNG",
@@ -14,10 +16,10 @@
     "static/media/jate-screenshot.PNG": "/react-portfolio/static/media/jate-screenshot.d45f02c2326e2a75a471.PNG",
     "index.html": "/react-portfolio/index.html",
     "main.f62923cc.css.map": "/react-portfolio/static/css/main.f62923cc.css.map",
-    "main.711d617f.js.map": "/react-portfolio/static/js/main.711d617f.js.map"
+    "main.b2f88ddd.js.map": "/react-portfolio/static/js/main.b2f88ddd.js.map"
   },
   "entrypoints": [
     "static/css/main.f62923cc.css",
-    "static/js/main.711d617f.js"
+    "static/js/main.b2f88ddd.js"
   ]
 }
