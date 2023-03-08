@@ -14,10 +14,6 @@ function Resume() {
                 <a href="https://docs.google.com/document/d/15JxKsIpPExDUdPZU6gfVDYMFnJTn4_bCNZaYphbnpO0/edit?usp=sharing"><i class="bi bi-link-45deg"></i>Resume Link</a>
             </div>
 
-            <div className="m-2">
-                <a href="./pdf/jon-pfluger-resume.pdf" download="jon-pfluger-resume"><i id="resume-download" class="bi bi-cloud-arrow-down"></i>Download</a>
-            </div>
-
             <h6>Technical Skills</h6>
             <p>
                 Languages: JavaScript ES6+, CSS3, HTML5, SQL, NoSQL, GraphQL
