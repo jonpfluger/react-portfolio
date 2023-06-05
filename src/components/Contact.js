@@ -19,22 +19,30 @@ function Contact() {
 
     const handleSubmit = event => {
         event.preventDefault()
-        console.log(formState)
-        window.alert("Form does not send data yet. Check console.")
+        const { name, value } = event.target
+        const updatedFormState = {
+            ...formState,
+            [name]: value,
+        }
+        fetch("https://formsubmit.co/ajax/jonpfluger718@gmail.com", { 
+            method: "POST", 
+            headers: { 
+                "Content-Type": "application/json", 
+                Accept: "application/json", 
+            }, 
+            body: JSON.stringify(updatedFormState), 
+        }) 
+            .then((response) => response.json()) 
+            .then((data) => console.log(data)) 
+            .catch((error) => console.log(error)); 
+
         setFormState({
             name: '',
             email: '',
             message: '',
         })
 
-    // when a back end is built, the fetch might look like this
-        // fetch("/api/submit", {
-        //     method: 'POST',
-        //     headers: {
-        //         'Content-Type': 'application/json'
-        //     },
-        //     body: JSON.stringify(formState)
-        // })
+        alert("Your message was sent!")
     }
 
     return (
@@ -42,7 +50,7 @@ function Contact() {
             <div id="email-phone-container" className="container my-2">
                 <i className="bi bi-envelope-at-fill"></i>
                 <p className="m-2">jonpfluger718@gmail.com</p>
-                <i class="bi bi-phone"></i>
+                <i className="bi bi-phone"></i>
                 <p className="m-2">262-309-4464</p>
             </div>
             <form id="form-container" className="container my-3" onSubmit={handleSubmit} action="https://formsubmit.co/jonpfluger718@gmail.com" method="POST">
