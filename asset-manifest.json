@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.f62923cc.css",
-    "main.js": "/react-portfolio/static/js/main.80326274.js",
+    "main.js": "/react-portfolio/static/js/main.469d22b7.js",
     "static/media/book-search-screenshot.gif": "/react-portfolio/static/media/book-search-screenshot.27c293c4c902e7d9ee9e.gif",
     "static/media/celebrity-astrology.png": "/react-portfolio/static/media/celebrity-astrology.cf3ae94727bc10d99125.png",
     "static/media/remembrall-homepage-screenshot.png": "/react-portfolio/static/media/remembrall-homepage-screenshot.93a8690a6372a01f28e9.png",
@@ -16,10 +16,10 @@
     "static/media/jate-screenshot.PNG": "/react-portfolio/static/media/jate-screenshot.d45f02c2326e2a75a471.PNG",
     "index.html": "/react-portfolio/index.html",
     "main.f62923cc.css.map": "/react-portfolio/static/css/main.f62923cc.css.map",
-    "main.80326274.js.map": "/react-portfolio/static/js/main.80326274.js.map"
+    "main.469d22b7.js.map": "/react-portfolio/static/js/main.469d22b7.js.map"
   },
   "entrypoints": [
     "static/css/main.f62923cc.css",
-    "static/js/main.80326274.js"
+    "static/js/main.469d22b7.js"
   ]
 }
