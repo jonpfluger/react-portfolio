@@ -12,8 +12,8 @@ function Project(props) {
                     <p>{desc}</p>
                     <h6 className="card-subtitle">Technology Used</h6>
                     <p>{tech}</p>
-                    {link ? <a className="card-link project-links" href={link}><i className="mx-2 bi bi-link-45deg"></i>Link</a> : null}
-                    {repo ? <a className="card-link project-links" href={repo}><i className="mx-2 bi bi-github"></i>Repo</a>  : null}
+                    {link ? <a className="card-link project-links" href={link} target="_blank"><i className="mx-2 bi bi-link-45deg"></i>Link</a> : null}
+                    {repo ? <a className="card-link project-links" href={repo} target="_blank"><i className="mx-2 bi bi-github"></i>Repo</a>  : null}
                 </div>
             </div>
         </div>
