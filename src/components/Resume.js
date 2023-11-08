@@ -20,7 +20,7 @@ function Resume() {
             </p>
             <p>Applications: GitHub, MongoDB, MySQL</p>
             <p>
-                Tools: Express, React, Node, Handlebars, jQuery, Bootstrap, Sequelize, Mongoose
+                Tools: Express, React, Node, Next.js, Handlebars, jQuery, Bootstrap, Sequelize, Mongoose
             </p>
         </div>
         
