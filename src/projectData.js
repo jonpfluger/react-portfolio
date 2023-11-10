@@ -20,6 +20,26 @@ export default [
     githubRepo: ""
   },
   {
+    id: 100,
+    title: "Frugal Floozies",
+    description: "Fashion and lifestyle web app.",
+    tech: "React, Vite, Tailwind, DaisyUI",
+    imagePath: null,
+    alt: "Image of the Frugal Floozies homepage",
+    deployedLink: "",
+    githubRepo: ""
+  },
+  {
+    id: 101,
+    title: "Bayer Roofing",
+    description: "Web app built for a Roofing Company.",
+    tech: "React, Bootstrap, CSS, JavaScript",
+    imagePath: null,
+    alt: "Image of the Bayer Roofing homepage",
+    deployedLink: "",
+    githubRepo: ""
+  },
+  {
     id: 1,
     title: "Remembrall Game",
     description: "Group project, MERN stack. A user can play a memory game.",
