@@ -7,6 +7,9 @@ import jateImg from './images/jate-screenshot.PNG'
 import socialNetworkApiImg from './images/social-network-api-screenshot.PNG'
 import bookSearchGIF from './images/book-search-screenshot.gif'
 import remembrallImg from './images/remembrall-homepage-screenshot.png'
+import e6Img from './images/e6golf.jpg'
+import bayerImg from './images/bayer-roofing.jpg'
+import frugalFlooziesImg from './images/frugal-floozies.jpg'
 
 export default [
   {
@@ -24,20 +27,30 @@ export default [
     title: "Frugal Floozies",
     description: "Fashion and lifestyle web app.",
     tech: "React, Vite, Tailwind, DaisyUI",
-    imagePath: null,
+    imagePath: frugalFlooziesImg,
     alt: "Image of the Frugal Floozies homepage",
-    deployedLink: "",
-    githubRepo: ""
+    deployedLink: "https://jace0fbass.github.io/frugal-floozies/",
+    githubRepo: "https://github.com/jace0fbass/frugal-floozies"
   },
   {
     id: 101,
     title: "Bayer Roofing",
     description: "Web app built for a Roofing Company.",
     tech: "React, Bootstrap, CSS, JavaScript",
-    imagePath: null,
+    imagePath: bayerImg,
     alt: "Image of the Bayer Roofing homepage",
     deployedLink: "",
-    githubRepo: ""
+    githubRepo: "https://github.com/jonpfluger/bayer-roofing"
+  },
+  {
+    id: 102,
+    title: "E6 Golf Tour",
+    description: "A website built for the golf simulator league ran by Bullseye Golf Sims and TruGolf Inc.",
+    tech: "Next.js 13, Typescript, React, CSS3, Bootstrap5, GraphQL, and Apollo.",
+    imagePath: e6Img,
+    alt: "Image of the E6 Tour homepage",
+    deployedLink: "https://e6-next.vercel.app/",
+    githubRepo: "https://github.com/jace0fbass/e6-next#e6touronlinecom"
   },
   {
     id: 1,
