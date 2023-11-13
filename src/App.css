@@ -66,12 +66,7 @@ a:focus {
 .projects {
   background: linear-gradient(var(--ContainerColor), var(--HeaderColor));
   border: 1px solid var(--PrimaryColor);
-  min-height: 700px;
-}
-
-.project-links {
-  display: flex;
-  justify-content: center;
+  min-height: 625px;
 }
 
 .project-images {
@@ -81,6 +76,15 @@ a:focus {
 
 .projects:hover {
   transform: scale(1.1);
+}
+
+.card-title a {
+  font-size: 32px;
+  text-decoration: underline;
+}
+
+.card-subtitle {
+  color: var(--PrimaryColor)
 }
 
 #form-container {
@@ -140,7 +144,7 @@ a:focus {
   transform: scale(3);
 }
 
-footer {
+footer div {
   font-size: 48px;
   display: flex;
   justify-content: center;
@@ -155,6 +159,11 @@ footer a {
 
 footer a:hover {
   transform: scale(3);
+}
+
+footer p {
+  display: flex;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 780px) {

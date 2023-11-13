@@ -16,8 +16,8 @@ function Portfolio(props) {
                         tech={project.tech}
                         imagePath={project.imagePath}
                         alt={project.alt}
-                        link={project.deployedLink}
-                        repo={project.githubRepo}
+                        link={project.link}
+                        // repo={project.githubRepo}
                     />
                 ))}
             </div>

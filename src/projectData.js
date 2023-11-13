@@ -19,28 +19,25 @@ export default [
     tech: "Next.js, React, MongoDB/Mongoose, Clerk",
     imagePath: null,
     alt: "Image of the Gig Haus homepage",
-    deployedLink: "",
-    githubRepo: ""
+    // link: ""
   },
   {
     id: 100,
     title: "Frugal Floozies",
-    description: "Fashion and lifestyle web app.",
+    description: "Fashion and lifestyle web app. Users can signup for a newsletter and read blog posts.",
     tech: "React, Vite, Tailwind, DaisyUI",
     imagePath: frugalFlooziesImg,
     alt: "Image of the Frugal Floozies homepage",
-    deployedLink: "https://jace0fbass.github.io/frugal-floozies/",
-    githubRepo: "https://github.com/jace0fbass/frugal-floozies"
+    link: "https://www.thefrugalfloozies.com/"
   },
   {
     id: 101,
     title: "Bayer Roofing",
-    description: "Web app built for a Roofing Company.",
+    description: "Web app built for a Roofing Company. Users can fill out a contact form.",
     tech: "React, Bootstrap, CSS, JavaScript",
     imagePath: bayerImg,
     alt: "Image of the Bayer Roofing homepage",
-    deployedLink: "",
-    githubRepo: "https://github.com/jonpfluger/bayer-roofing"
+    // link: ""
   },
   {
     id: 102,
@@ -49,8 +46,7 @@ export default [
     tech: "Next.js 13, Typescript, React, CSS3, Bootstrap5, GraphQL, and Apollo.",
     imagePath: e6Img,
     alt: "Image of the E6 Tour homepage",
-    deployedLink: "https://e6-next.vercel.app/",
-    githubRepo: "https://github.com/jace0fbass/e6-next#e6touronlinecom"
+    link: "https://e6-next.vercel.app/"
   },
   {
     id: 1,
@@ -59,8 +55,7 @@ export default [
     tech: "React-tsparticles, GraphQL, Apollo Server/Client, MongoDB/Mongoose, Node.js/Express.js",
     imagePath: remembrallImg,
     alt: "Image of the Remembrall game homepage",
-    deployedLink: "https://lit-cove-97949.herokuapp.com/",
-    githubRepo: "https://github.com/jonpfluger/remembrall-game"
+    link: "https://lit-cove-97949.herokuapp.com/"
   },
   {
     id: 2,
@@ -69,8 +64,7 @@ export default [
     tech: "React, GraphQL, Apollo Server/Client, MongoDB/Mongoose, Node.js/Express.js",
     imagePath: bookSearchGIF,
     alt: "Image of the book search homepage",
-    deployedLink: "https://rocky-bayou-81676.herokuapp.com/",
-    githubRepo: "https://github.com/jonpfluger/book-search-engine"
+    link: "https://github.com/jonpfluger/book-search-engine"
   },
   {
     id: 3,
@@ -79,8 +73,7 @@ export default [
     tech: "Handlebars, SQL, Express, Sequelize, JavaScript, Node.js, Bootstrap",
     imagePath: houseRulesImg,
     alt: "Image of the House Rules homepage",
-    deployedLink: "https://house-rules.herokuapp.com",
-    githubRepo: "https://github.com/jonpfluger/house-rules"
+    link: "https://house-rules.herokuapp.com"
   },
   {
     id: 4,
@@ -89,8 +82,7 @@ export default [
     tech: "jQuery, JavaScript, HTML, CSS, MUI",
     imagePath: celebAstroImg,
     alt: "Image of the Celebrity Astrology homepage",
-    deployedLink: "https://jonpfluger.github.io/celebrity-astrology",
-    githubRepo: "https://github.com/jonpfluger/celebrity-astrology"
+    link: "https://jonpfluger.github.io/celebrity-astrology"
   },
   {
     id: 5,
@@ -99,26 +91,25 @@ export default [
     tech: "Express, MySQL, Sequelize, Node.js, JavaScript",
     imagePath: eCommerceImg,
     alt: "Image of the e-commerce back end using CRUD methods in Postman.",
-    githubRepo: "https://github.com/jonpfluger/e-commerce-back-end"
+    link: "https://github.com/jonpfluger/e-commerce-back-end"
   },
   {
     id: 6,
     title: "Social Network API",
-    description: "API for a social network web application where users can create a friends list, share their thoughts, and react to friends' thoughts.",
+    description: "API for a social network web app where users can create a friends list, share thoughts, and react to friends' thoughts.",
     tech: "MongoDB, Mongoose, Express, Node.js, JavaScript",
     imagePath: socialNetworkApiImg,
     alt: "Image of the social network CRUD methods in Postman.",
-    githubRepo: "https://github.com/jonpfluger/social-network-api"
+    link: "https://github.com/jonpfluger/social-network-api"
   },
   {
     id: 7,
-    title: "JATE | Just Another Text Editor",
+    title: "Just Another Text Editor",
     description: "Single-page PWA text editor. Functions offline natively and in the browser.",
     tech: "Express, Node.js",
     imagePath: jateImg,
     alt: "Image of the JATE app running natively in the browser.",
-    deployedLink: "https://still-bastion-72387.herokuapp.com/",
-    githubRepo: "https://github.com/jonpfluger/just-another-text-editor"
+    link: "https://still-bastion-72387.herokuapp.com/"
   },
   {
     id: 8,
@@ -127,8 +118,7 @@ export default [
     tech: "Express, Node.js, JavaScript",
     imagePath: noteTakerImg,
     alt: "Image of the Note Taker application",
-    deployedLink: "https://sheltered-peak-54914.herokuapp.com/",
-    githubRepo: "https://github.com/jonpfluger/note-taker"
+    link: "https://github.com/jonpfluger/note-taker"
   },
   {
     id: 9,
@@ -137,6 +127,6 @@ export default [
     tech: "Inquirer, Jest, Node.js, JavaScript",
     imagePath: teamProfileG,
     alt: "Image of the Team Profile Generator application",
-    githubRepo: "https://github.com/jonpfluger/team-profile-generator"
+    link: "https://github.com/jonpfluger/team-profile-generator"
   }
 ]
