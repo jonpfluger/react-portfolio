@@ -98,13 +98,13 @@ a:focus {
   text-align: center;
 }
 
-#submitBtn {
+#submitBtn, #resumeBtn {
   color: var(--PrimaryColor);
   background: linear-gradient(var(--ContainerColor), var(--HeaderColor));
   border: 1px solid var(--PrimaryColor);
 }
 
-#submitBtn:hover {
+#submitBtn:hover, #resumeBtn:hover {
   color: var(--HeaderColor);
   background: var(--PrimaryColor);
   border: 1px solid var(--HeaderColor);
@@ -125,11 +125,30 @@ a:focus {
   background: linear-gradient(var(--ContainerColor), var(--HeaderColor));
   border: 1px solid var(--PrimaryColor);
   border-radius: 7px;
-  min-height: 700px;
-  width: 500px;
+  min-height: 450px;
+  width: 75%;
   max-width: 100%;
   text-align: center;
 }
+
+#skill-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+}
+
+.skills img {
+  width: 100px;
+}
+
+/* 
 
 #resume-image {
   height: 300px;
@@ -142,7 +161,7 @@ a:focus {
 
 #resume-download {
   transform: scale(3);
-}
+} */
 
 footer div {
   font-size: 48px;
@@ -164,6 +183,7 @@ footer a:hover {
 footer p {
   display: flex;
   justify-content: center;
+  margin-top: 1vh;
 }
 
 @media only screen and (max-width: 780px) {
