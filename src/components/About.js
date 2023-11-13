@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import headshot from '../images/me-2.png'
+import headshot from '../images/me-3.jpg'
 
 function About() {
     return (
