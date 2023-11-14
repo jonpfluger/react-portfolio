@@ -3,14 +3,15 @@ import Project from './Project'
 
 import projectsJSON from '../projectData'
 
-function Portfolio(props) {
+function Portfolio() {
     const [projectList, setProjectList] = useState(projectsJSON);
+    
     return (
         <div className="container">
             <div className="row g-3">
                 {projectList.map(project => (
                     <Project
-                        id={project.id}
+                        key={project.id}
                         title={project.title}
                         desc={project.description}
                         tech={project.tech}

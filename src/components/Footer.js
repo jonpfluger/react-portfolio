@@ -9,7 +9,7 @@ function Footer() {
                 <a href="https://stackoverflow.com/users/19670475/jon-pfluger" target="_blank"><i className="bi bi-stack-overflow"></i></a>
             </div>
 
-            <p>&copy; Jon Pfluger {new Date().getFullYear()}</p>
+            <p>&copy; JP Dev Solutions LLC {new Date().getFullYear()}</p>
         </footer>
     )
 }

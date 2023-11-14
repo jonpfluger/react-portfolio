@@ -12,15 +12,15 @@ import bayerImg from './images/bayer-roofing.jpg'
 import frugalFlooziesImg from './images/frugal-floozies.jpg'
 
 export default [
-  {
-    id: 0,
-    title: "Gig Haus",
-    description: "Social media app for connecting musicians and venues.",
-    tech: "Next.js, React, MongoDB/Mongoose, Clerk",
-    imagePath: null,
-    alt: "Image of the Gig Haus homepage",
-    // link: ""
-  },
+  // {
+  //   id: 0,
+  //   title: "Gig Haus",
+  //   description: "Social media app for connecting musicians and venues.",
+  //   tech: "Next.js, React, MongoDB/Mongoose, Clerk",
+  //   imagePath: null,
+  //   alt: "Image of the Gig Haus homepage",
+  //   link: ""
+  // },
   {
     id: 100,
     title: "Frugal Floozies",
@@ -37,11 +37,11 @@ export default [
     tech: "React, Bootstrap, CSS, JavaScript",
     imagePath: bayerImg,
     alt: "Image of the Bayer Roofing homepage",
-    // link: ""
+    link: "https://jonpfluger.github.io/bayer-roofing/"
   },
   {
     id: 102,
-    title: "E6 Golf Tour",
+    title: "Bullseye Golf Sims",
     description: "A website built for the golf simulator league ran by Bullseye Golf Sims and TruGolf Inc.",
     tech: "Next.js 13, Typescript, React, CSS3, Bootstrap5, GraphQL, and Apollo.",
     imagePath: e6Img,
@@ -61,7 +61,7 @@ export default [
     id: 2,
     title: "Book Search Engine",
     description: "Google Books API search engine. Allows users to save book searches to the back end. MERN stack.",
-    tech: "React, GraphQL, Apollo Server/Client, MongoDB/Mongoose, Node.js/Express.js",
+    tech: "React, GraphQL, Apollo, MongoDB/Mongoose, Node.js, Express.js",
     imagePath: bookSearchGIF,
     alt: "Image of the book search homepage",
     link: "https://github.com/jonpfluger/book-search-engine"

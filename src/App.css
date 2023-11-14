@@ -148,21 +148,6 @@ a:focus {
   width: 100px;
 }
 
-/* 
-
-#resume-image {
-  height: 300px;
-  max-height: 100%;
-}
-
-#resume-image:hover {
-  transform: scale(1.1);
-}
-
-#resume-download {
-  transform: scale(3);
-} */
-
 footer div {
   font-size: 48px;
   display: flex;
@@ -186,13 +171,35 @@ footer p {
   margin-top: 1vh;
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 1400px) {
+  .projects {
+    min-height: 675px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .card-title a {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 766px) {
   #about-me {
     display: block;
   }
 
   #headshot {
     margin: 0 0 20px 0;
+  }
+
+  .skills {
+    width: 125px;
+    height: 125px;
+    padding: 8px;
+  }
+
+  .projects {
+    min-height: 600px;
   }
 }
 
@@ -202,11 +209,28 @@ footer p {
     text-align: center;
   }
 
+  .skills {
+    width: 90px;
+    height: 90px;
+    padding: 7px;
+  }
 }
 
 @media only screen and (max-width: 410px) {
   .navbar-link {
     display: block;
     text-align: center;
+  }
+
+  .skills {
+    width: 75px;
+    height: 75px;
+    padding: 5px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  * {
+    font-size: 18px;
   }
 }
