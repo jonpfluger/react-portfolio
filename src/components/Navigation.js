@@ -5,9 +5,9 @@ function Navigation() {
     return (
         <nav className="mx-auto">
             <Link className="navbar-link m-2" to="/">About Me</Link>
-            <Link className="navbar-link m-2" to="/Portfolio">Portfolio</Link>
-            <Link className="navbar-link m-2" to="/Resume">Resume</Link>
-            <Link className="navbar-link m-2" to="/Contact">Contact</Link>
+            <Link className="navbar-link m-2" to="/portfolio">Portfolio</Link>
+            <Link className="navbar-link m-2" to="/resume">Resume</Link>
+            <Link className="navbar-link m-2" to="/contact">Contact</Link>
         </nav>
     )
 }
