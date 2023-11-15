@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 function Project(props) {
     const { title, desc, tech, link, repo, imagePath, alt } = props
