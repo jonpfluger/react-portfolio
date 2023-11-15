@@ -234,3 +234,11 @@ footer p {
     font-size: 18px;
   }
 }
+
+#error-page {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
