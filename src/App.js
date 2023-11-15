@@ -9,7 +9,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <BrowserRouter basename="/react-portfolio">
+    <BrowserRouter>
       <Header />
         <Routes>
           <Route path="/" element={<About />} />
