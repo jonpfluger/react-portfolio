@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6842768e.css",
-    "main.js": "/static/js/main.e61d4497.js",
+    "main.js": "/static/js/main.ea739cf1.js",
     "static/media/book-search-screenshot.gif": "/static/media/book-search-screenshot.27c293c4c902e7d9ee9e.gif",
     "static/media/celebrity-astrology.png": "/static/media/celebrity-astrology.cf3ae94727bc10d99125.png",
     "static/media/remembrall-homepage-screenshot.png": "/static/media/remembrall-homepage-screenshot.93a8690a6372a01f28e9.png",
@@ -38,10 +38,10 @@
     "static/media/graphql-logo.svg": "/static/media/graphql-logo.3caafeddeb7dab1f0c45ce24993078e7.svg",
     "static/media/git-logo.svg": "/static/media/git-logo.6d27b5e0cde4ddb87e031ca706aa8350.svg",
     "main.6842768e.css.map": "/static/css/main.6842768e.css.map",
-    "main.e61d4497.js.map": "/static/js/main.e61d4497.js.map"
+    "main.ea739cf1.js.map": "/static/js/main.ea739cf1.js.map"
   },
   "entrypoints": [
     "static/css/main.6842768e.css",
-    "static/js/main.e61d4497.js"
+    "static/js/main.ea739cf1.js"
   ]
 }
